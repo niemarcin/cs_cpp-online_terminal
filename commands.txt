@@ -1,0 +1,34 @@
+  500  mkdir mnTest
+  501  cd mnTest/
+  502  git init 
+  503  touch processes.txt
+  504  ps aux
+  505  ps aux > processes.txt 
+  506  cat processes.txt 
+  507  cp processes.txt copy.txt
+  508  mkdir kopia
+  509  mv copy.txt kopia/.
+  510  ls 
+  511  ls -a
+  512  ls -al
+  513  wc --help
+  514  wc -l processes.txt 
+  515  wc -l processes.txt >>processes.txt 
+  516  cat processes.txt 
+  517  grep --help
+  518  grep -n --color "/bin" processes.txt 
+  519  grep -n --color "/bin" processes.txt >>processes.txt 
+  520  grep -n --color "/bin" processes.txt  | echo
+  521  grep -n --color "/bin" processes.txt  | wc
+  522  grep -n --color "/bin" processes.txt  > temp.txt
+  523  ls
+  524  temp.txt >> processes.txt 
+  525  cat temp.txt >> processes.txt 
+  526  cat processes.txt 
+  527  rm temp.txt 
+  528  ls
+  529  history
+  530  history | tail -n29
+  531  history | tail -n31
+  532  history | tail -n33
+  533  history | tail -n34 > commands.txt
